@@ -1,0 +1,636 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+body{
+    width:100%;
+    background-color:#FCFAF9;
+    display:flex;
+    flex-direction: column;
+  
+}
+
+
+.header{
+    display:none;
+}
+
+.text{
+    display:none;
+}
+
+.top-container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.image-hero, .mobile-hero{
+    width:100%;
+    max-width:375px;
+    display: flex;
+    flex-direction: column;
+}
+
+ .tablet-hero{
+    display:none;
+}
+
+.text-container{
+    display:flex;
+    flex-direction: column;
+    gap:32px 0;
+    padding:0 16px;
+    margin-top:32px;
+
+}
+
+.text-container h1{
+    font-family: 'Big Shoulders Display';
+    color:#151515;
+    font-size:60px;
+    line-height: 55px;
+    font-weight: 900;  
+   max-width:280px;
+    
+}
+
+.text-container p{
+    font-family: 'outfit';
+    font-weight: 300;
+    font-size:18px;
+    line-height:28px;  
+    color:#444444;
+    max-width:320px;
+}
+
+.location-div{
+    display:flex;
+}
+
+.location-button{
+    width:204px;
+    height:72px;
+    background-color:black;
+    font-family:'Big Shoulders Display';
+    color:#FFFFFF;
+    font-size:20px;
+    letter-spacing:3.64px;
+    font-weight:800;
+    text-decoration: none;
+    text-align: center; 
+    border:none;
+    cursor:pointer;
+}
+
+.location-div:hover .location-button{
+    background-color: #D5966C;
+}
+
+.location-div:hover .arrow-button{
+    background-color: #151515;
+}
+
+.arrow-button{
+    width:56px;
+    height:72px;
+    background-color: #D5966C;
+    border:none;
+    cursor:pointer;
+    text-align: center;
+}
+
+
+
+.gallery{
+    padding: 0 16px;
+    display:flex;
+    flex-direction:column;
+    margin-top:120px;
+    gap:25px;
+    margin-bottom:32px;
+}
+
+.grid-mobile{
+    width:100%;
+    max-width:343px;
+}
+
+.grid-tablet{
+    display:none;
+}
+
+
+.gallery-text{
+    display:flex;
+    flex-direction: column;
+    gap:21px;
+}
+
+.gallery-text h2 {
+    font-family:'Big Shoulders Display';
+    font-size: 50px;
+    font-weight:900;
+    line-height: 45px;
+    color:#151515;
+}
+
+.gallery-text p {
+    font-family: 'outfit';
+    font-weight: 300;
+    color:#444444;
+    font-size: 18px;
+    line-height:28px;
+}
+
+.view{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:16px;  
+    padding:0 16px;
+}
+
+ .drawing-view{
+    width:100%;
+    width:343px;
+}
+
+.tablet-drawing-view{
+    display:none;
+}
+
+.grid-desktop{
+    display: none;
+}
+
+.onlooker{
+    width:100%;
+    width:343px;  
+}
+
+.tablet-onlooker{
+    display:none;
+}
+
+.desktop-drawing-view{
+    display:none;
+}
+
+.desktop-onlooker{
+    display:none;
+}
+
+.black-view {
+    background-color:#151515;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+    padding:48px 24px;
+}
+
+.main-spectator{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.black-view h3{
+    font-family:'Big Shoulders Display';
+    font-size:50px;
+    color:#FFFFFF;
+    font-weight:900;
+}
+
+.black-view p{
+    font-family:'outfit';
+    font-size:18px;
+    color:#FFFFFF;
+    line-height:28px;
+    font-family:'outfit';
+    font-weight:300;
+}
+
+
+.footer-div{
+    margin-top:120px;
+    display:flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    background-color:#151515;
+    padding:48px 32px;
+    width:100%;
+    max-width:375px;
+    gap:38px 0;
+}
+
+.footer-div p{
+    font-size:16px;
+    line-height: 26px;
+    font-family:'outfit';
+    color:#FFFFFF;
+}
+
+.footer-div div{
+    display:flex;
+    flex-direction: row;
+    gap:0 20px;
+}
+
+.facebook path:hover{
+    fill:#D5966C;
+    cursor:pointer;
+}
+
+.instagram path:hover{
+    fill:#D5966C;
+    cursor:pointer;
+}
+
+.twitter path:hover{
+    fill:#D5966C;
+    cursor:pointer;
+}
+
+
+
+/* tablet version*/
+/* tablet version*/
+/* tablet version*/
+/* tablet version*/
+/* tablet version*/
+/* tablet version*/
+/* tablet version*/
+
+
+
+
+@media screen and (min-width: 768px) {
+    body{
+        width:100%;
+
+    }
+
+    .desktop-container{
+        display:none;
+    }
+
+    .top-container{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        padding:0;
+        
+    }
+
+
+    .mobile-hero{
+        display:none;
+    }
+
+    .text{
+        display:none;
+    }    
+
+    .tablet-hero{
+        display: flex;
+        width:100%;
+        width:437px;
+        height:700px;
+       
+      
+    }
+
+    .text-container{
+        display:flex;
+        margin-left:15px;
+        margin-top:145px;
+        gap:48px 0;
+        padding:0;
+    }
+
+    .text-container h1{      
+        font-size:70px;
+        line-height:65px;
+        max-width:330px;
+        
+    }
+
+    .text-container p {
+        font-size:18px;
+        line-height:28px;
+        max-width:339px;
+    }
+
+
+    .gallery{
+        width:768px;
+        padding: 0 40px;
+        display:flex;
+        flex-direction: row-reverse;
+        gap:0 68px;
+        margin-bottom: 11px;
+    }
+
+    .gallery-text{
+        margin-top:36px;
+        display:flex;
+        flex-direction: column;
+
+        gap:24px 0;
+    }
+
+    .grid-mobile{
+        display:none;
+    }
+
+    .main-spectator{
+        display: grid;
+       gap:11px 0;
+    }
+
+    .grid-tablet{
+        display:flex;
+        width:100%;
+        width:398px;
+    }
+
+    .view{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap:11px;
+        grid-row-gap: 11px;
+        padding:0 40px; 
+    }
+
+    .vision{
+        grid-area: 1 / 1 / 3 / 2; 
+    }
+
+    .spectator{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .black-view{
+        grid-area: 2 / 2 / 3 / 3; 
+        width:280px;
+        height:396px;
+        gap:24px;
+        padding:85px 29px;
+    }
+
+
+    .drawing-view{
+        display:none;
+    }
+
+    .tablet-drawing-view{
+        display:flex;
+        width:398px;
+        height:720px;
+    }
+
+
+    .onlooker{
+        display:none;
+    }
+
+    .grid-desktop{
+        display:none;
+    }
+
+    .desktop-drawing-view{
+        display:none;
+    }
+
+    .desktop-onlooker{
+        display:none;
+    }
+
+    .tablet-onlooker{
+        display:flex;
+        width:280px;
+        height:313px;
+
+    }
+
+    .footer-div{
+        margin-top:120px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color:#151515;
+        padding:56px 40px;
+        width:100%;
+        max-width:768px;
+        gap:0 65px;
+    }
+
+    .footer-div p{
+        width:281px;
+        line-height:26px;
+    }
+
+}
+
+
+
+/* desktop version*/
+/* desktop version*/
+/* desktop version*/
+/* desktop version*/
+/* desktop version*/
+/* desktop version*/
+/* desktop version*/
+/* desktop version*/
+
+
+@media screen and (min-width: 1024px) {
+
+    .tablet-hero{
+        display:none;
+    }
+
+     
+    .text-container h1{
+        display:none;
+    }
+
+    .tablet-drawing-view{
+        display:none;
+    }
+
+    .grid-tablet{
+        display:none;
+    }
+
+    .tablet-onlooker{
+        display:none;
+    }
+
+    header{
+        display:flex;
+        width:990px;
+        height:800px;
+        position:relative;
+        border:none;
+        margin:0;
+    }
+
+    .black-div{
+        width:100%;
+        height:100%;
+        background-color:black;
+        background-image: url("./assets/desktop/image-hero@2x.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 540px 800px;
+        border: none;
+    }
+
+    .text{
+        font-family:'Big Shoulders Display';
+        width: 825px;
+        height: 100%;
+        position: absolute;
+        top: -120px;
+        left: 0;
+        font-size: 96px;
+        background-image: linear-gradient(270deg, black 0%, black 540px, white 540px, white 990px);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-left: 165px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        line-height: 88px;
+        font-weight: 900;
+        border: none;
+    }
+
+    .text-container{
+        position: absolute;
+        max-width: 60%;
+        left: 925px;
+        top: 50px;
+        gap: 64px 0;
+    }
+
+    .text-container p{
+      width:350px;
+      height:160px;
+      font-size:22px;
+      line-height: 32px;  
+    }
+
+
+    .gallery{
+        margin-top: 180px;
+        gap:125px;
+        margin-bottom:30px;
+        display:flex;
+        justify-content: center;
+        width:100%;
+       
+    }
+    .gallery-text{
+        display: flex;
+        flex-direction: column;
+        max-width:350px;
+    }
+
+    .gallery-text h2 {
+        font-family:'Big Shoulders Display';
+        font-size: 60px;
+        font-weight:900;
+        line-height: 60px;
+        color:#151515;
+        width:350px;
+    }
+    
+    .gallery-text p {
+
+        font-family: 'outfit';
+        font-weight: 300;
+        color:#444444;
+        font-size: 22px;
+        line-height:32px;
+        
+    }
+
+
+    .grid-desktop{
+        display:flex;
+       width:635px;
+    }
+
+    .desktop-drawing-view{
+        display:flex;
+        height:740px;
+    }
+
+    .desktop-onlooker{
+        display:unset;
+        width:427px;
+    }
+
+
+    .view{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:30px;
+    }
+
+    .main-spectator{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .main-spectator{
+        display:flex;
+        gap:30px;
+      
+    }
+
+    .black-view{
+        height:408px;
+        width:427px;
+        gap:32px;
+    }
+    
+
+    .black-view p{
+    display:flex;
+    flex-direction: column;
+    font-size:22px;
+    }
+
+    .footer-div{
+    margin-top:180px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#151515;
+    padding:56px 40px;
+    width:100%;
+    max-width:100%;
+    gap:0 65px;
+    }
+
+    .footer-div p{
+    width:430px;
+    line-height:28px;
+    font-size:18px;
+    }
+
+
+}
+
+
+
+
