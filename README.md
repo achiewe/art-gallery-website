@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [file:///C:/Users/User/Desktop/art%20gallery%20website/index.html]
+- Live Site URL: [https://achiewe.github.io/art-gallery-website/index.html?]
 
 ## My process
 
