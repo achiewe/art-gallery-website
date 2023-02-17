@@ -51,5 +51,5 @@ This challenge was a good experience for me. I've gotten better at responsive we
 ## Author
 
 - Github - [achiewe](https://github.com/achiewe?tab=repositories)
-- LinkedIn - [@achi mamukashvili](https://www.linkedin.com/in/achi-mamukashvili-721928263/)
+- LinkedIn - [achi mamukashvili](https://www.linkedin.com/in/achi-mamukashvili-721928263/)
 
